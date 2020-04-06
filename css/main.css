@@ -1,0 +1,80 @@
+
+html,
+body {
+    min-width: 1160px;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    background-color:#fff;
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.visualy__hiden:not(:focus):not(:active),
+input[type="checkbox"].visualy__hiden,
+input[type="radio"].visualy__hiden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.button{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.button:active span {
+    opacity: 0.3;
+}
+.red_button{
+    background-color:#fb565a;
+}
+.red_button:hover,
+.red_button:focus {
+    background-color: #e74246;
+}
+
+.red_button:active {
+    background-color: #d7373b;
+}
+.green_button{
+    background-color:#00ca74;
+}
+.green_button:hover,
+.green_button:focus {
+    background-color: #01bc6d;
+}
+
+.green_button:active {
+    background-color: #00aa62;
+}
+.yellow_button
+{
+    background-color:#f1cf63;
+}
+.yellow_button:hover,
+.yellow_button:focus {
+    background-color: #eab534;
+}
+
+.yellow_button:active {
+    background-color: #e4a622;
+}
